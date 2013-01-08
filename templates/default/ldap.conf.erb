@@ -1,0 +1,13 @@
+ldap_version <%= node['pam_ldap']['ldap_version'] %>
+
+uri <%= node['pam_ldap']['uri'] %>
+
+rootbinddn <%= node['pam_ldap']['rootbinddn'] %>
+
+pam_filter <%= node['pam_ldap']['pam_filter'] %>
+
+pam_password_prohibit_message <%= node['pam_ldap']['pam_password_prohibit_message'] %>
+
+nss_base_passwd <%= node['pam_ldap']['nss_base_passwd'] %>
+nss_base_shadow <%= node['pam_ldap']['nss_base_shadow'] %>
+nss_base_group <%= node['pam_ldap']['nss_base_group'] %>
