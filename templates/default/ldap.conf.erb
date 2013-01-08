@@ -1,0 +1,9 @@
+ldap_version <%= node['pam_ldap']['ldap_version'] %>
+
+uri <%= node['pam_ldap']['uri'] %>
+base <%= node['pam_ldap']['base'] %>
+
+rootbinddn <%= node['pam_ldap']['rootbinddn'] %>
+bindpw <%= node['pam_ldap']['rootbinddn'] %>
+
+pam_password_prohibit_message <%= node['pam_ldap']['pam_password_prohibit_message'] %>
